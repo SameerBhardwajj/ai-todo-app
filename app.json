@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "todo-app",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow Task Flow to use Face ID to unlock the app."
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
