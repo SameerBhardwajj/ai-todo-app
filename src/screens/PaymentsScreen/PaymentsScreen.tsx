@@ -11,8 +11,8 @@ import { readPayments, writePayments } from '../../payments/storage';
 
 type Navigation = NativeStackNavigationProp<RootStackParamList, 'Payments'>;
 const field = { borderWidth: 1, borderColor: '#dfe3f2', borderRadius: 12, padding: 13, marginTop: 10, color: '#111827', backgroundColor: '#fff' } as const;
-const MERCHANT_NAME = 'RAJAT BHARDWAJ';
-const MERCHANT_UPI_ID = 'paytmqr5j6gih@ptys';
+const MERCHANT_NAME = 'Example Merchant';
+const MERCHANT_UPI_ID = 'merchant@example';
 const formatPaymentDateTime = (timestamp: number) => new Intl.DateTimeFormat('en-IN', {
   year: 'numeric', month: '2-digit', day: '2-digit',
   hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true,
